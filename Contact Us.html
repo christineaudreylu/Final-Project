@@ -1,0 +1,75 @@
+<! DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, 
+		initial-scale=1">
+		
+		
+		
+		<link rel = "stylesheet" type = "text/css" href = "css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Open Sans Condensed:300' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Ramaraja' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Palanquin Dark' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Galada' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Forum' rel='stylesheet'>
+		<title> Contact Us </title>
+	</head>
+<body>
+<div id = "navbar">
+<img class="logo" src="img/logo.png">
+<nav>
+	
+	<a href="index.html">|&emsp;HOME </a>&emsp; 
+	<a href="about us.html">|&emsp;ABOUT US</a>&emsp; 
+	<a href="services.html">|&emsp;SERVICES</a>&emsp; 
+	<a href="contact us.html">|&emsp;CONTACT US&emsp;|</a>&emsp;
+	<a href="admin.html"> ADMIN LOGIN&emsp;|</a>&emsp; &emsp; &emsp; &emsp; 
+	
+</nav>
+</div>
+<hr>
+<h3 class="title"> CONTACT US </h3>
+<p class="content"> Email: moviescapephotobooth@gmail.com <br> Number: (+63)916 602 5840 </p>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form onsubmit="return confirm('Do you really want to submit the form?');">
+  
+	<label for="salutation"> Salutation </label>
+	<select id="salutation" name="salutation">
+		<option value=""></option>
+		<option value="Ms.">Ms.</option>
+		<option value="Mrs."> Mrs. </option>
+		<option value="Mr."> Mr. </option>
+	</select>
+  
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="First Name">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Last Name">
+	
+	<label for="mail">Email</label>
+	<input type="text" id="mail" name="email" placeholder="Email Address">
+	
+	
+
+    <label for="content">Type of content</label>
+    <select id="content" name="content">
+	  <option value=""></option>
+      <option value="Inquiry">Inquiry</option>
+      <option value="Feedback">Feedback</option>
+      <option value="Complaint">Complaint</option>
+    </select>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Tell us what you think" style="height:200px"></textarea>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+</body>
+</html>
